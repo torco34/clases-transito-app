@@ -8,9 +8,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className="bg-gray-100">
+      <body className="bg-gray-100 text-slate-700">
         <div className="flex min-h-screen">
           <SideNav />
+
           <main className="flex-1 p-8 max-w-4xl">
             {children} {/* aquí se inserta el contenido de cada página */}
           </main>

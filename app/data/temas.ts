@@ -123,4 +123,130 @@ export const categorias: CategoriaTemas[] = [
       },
     ],
   },
+  {
+    slug: "senalizacion-vial",
+    nombre: "Señalización vial e infraestructura",
+    temas: [
+      // 👇 Reemplaza estos 11 por tus títulos reales — dime cuáles son y te los completo
+      {
+        slug: "tema-1",
+        titulo: "Tema 1 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+      {
+        slug: "tema-2",
+        titulo: "Tema 2 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+    ],
+  },
+  {
+    slug: "especifica-moto",
+    nombre: "Especifica motos",
+    temas: [
+      // 👇 Reemplaza estos 11 por tus títulos reales — dime cuáles son y te los completo
+      {
+        slug: "tema-1",
+        titulo: "Tema 1 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+      {
+        slug: "tema-2",
+        titulo: "Tema 2 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+    ],
+  },
+  {
+    slug: "especifica-carro",
+    nombre: "Especifica carros",
+    temas: [
+      // 👇 Reemplaza estos 11 por tus títulos reales — dime cuáles son y te los completo
+      {
+        slug: "tema-1",
+        titulo: "Tema 1 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+      {
+        slug: "tema-2",
+        titulo: "Tema 2 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+    ],
+  },
+  {
+    slug: "especifica-c1",
+    nombre: "Especifica C1",
+    temas: [
+      // 👇 Reemplaza estos 11 por tus títulos reales — dime cuáles son y te los completo
+      {
+        slug: "tema-1",
+        titulo: "Tema 1 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+      {
+        slug: "tema-2",
+        titulo: "Tema 2 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+    ],
+  },
+  {
+    slug: "el-vehiculo",
+    nombre: "El vehículo",
+    temas: [
+      // 👇 Reemplaza estos 11 por tus títulos reales — dime cuáles son y te los completo
+      {
+        slug: "tema-1",
+        titulo: "Tema 1 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+      {
+        slug: "tema-2",
+        titulo: "Tema 2 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+    ],
+  },
+  {
+    slug: "aplicada-especifica",
+    nombre: "Aplicada específica",
+    temas: [
+      // 👇 Reemplaza estos 11 por tus títulos reales — dime cuáles son y te los completo
+      {
+        slug: "tema-1",
+        titulo: "Tema 1 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+      {
+        slug: "tema-2",
+        titulo: "Tema 2 (pendiente)",
+        categoria: "normas",
+        parrafos: [{ titulo: "¿Qué es?", texto: "Escribe aquí el contenido." }],
+        preguntas: ["Pregunta de repaso."],
+      },
+    ],
+  },
 ];

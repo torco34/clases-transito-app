@@ -1,0 +1,20 @@
+// app/components/Sidebar.js
+"use client"; // necesario porque usamos useState (interactividad)
+
+import { categorias } from "../../data/tema";
+import Acordeon from "./menuAcordeon";
+
+export default function Sidenav() {
+  return (
+    <aside className="w-72 bg-gray-900 text-white flex flex-col border-r-4 border-dashed border-yellow-400">
+      <div className="p-5 border-b border-gray-700">
+        <h1 className="text-lg font-bold text-yellow-400">🚦 Educación Vial</h1>
+      </div>
+      <nav className="flex-1 overflow-y-auto p-3 space-y-1">
+        {categorias.map((cat) => (
+          <Acordeon key={cat.slug} categoria={cat} />
+        ))}
+      </nav>
+    </aside>
+  );
+}

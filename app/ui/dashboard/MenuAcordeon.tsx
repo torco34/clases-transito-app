@@ -3,7 +3,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
-export default function menuAcordeon({ categoria }: any) {
+export default function MenuAcordeon({ categoria }: any) {
   const [abierto, setAbierto] = useState(false);
 
   return (
@@ -18,7 +18,7 @@ export default function menuAcordeon({ categoria }: any) {
 
       {abierto && (
         <div className="pl-4 mt-1 space-y-1 border-l-2 border-dashed border-gray-700 ml-3">
-          {categoria.temas.map((tema) => (
+          {categoria.temas.map((tema: any) => (
             <Link
               key={tema.slug}
               href={`/temas/${categoria.slug}/${tema.slug}`}

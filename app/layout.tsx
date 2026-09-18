@@ -1,4 +1,4 @@
-import SideNav from "./ui/dashboard/sidenav";
+import SideNav from "./ui/dashboard/SideNav";
 
 import "./ui/global.css";
 export default function RootLayout({

@@ -1,10 +1,9 @@
-// app/components/Sidebar.js
-"use client"; // necesario porque usamos useState (interactividad)
+"use client";
 
-import { categorias } from "../../data/tema";
-import Acordeon from "./menuAcordeon";
+import { categorias } from "../../data/temas";
+import Acordeon from "./MenuAcordeon";
 
-export default function Sidenav() {
+export default function SideNav() {
   return (
     <aside className="w-72 bg-gray-900 text-white flex flex-col border-r-4 border-dashed border-yellow-400">
       <div className="p-5 border-b border-gray-700">
